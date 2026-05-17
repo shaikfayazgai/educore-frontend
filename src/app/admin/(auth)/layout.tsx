@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import type { ReactNode } from "react";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
@@ -8,7 +9,11 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
     <div className="flex min-h-screen">
       {/* Left panel — branding */}
       <div className="hidden w-[480px] flex-col justify-between bg-gradient-to-br from-[#1e293b] to-[#0f172a] p-10 text-white lg:flex">
-        <div className="inline-flex w-fit items-center rounded-lg bg-white px-3 py-2">
+        <Link
+          href="/"
+          aria-label="Back to Glimmora landing"
+          className="inline-flex w-fit items-center rounded-lg bg-white px-3 py-2 transition-opacity hover:opacity-90"
+        >
           <Image
             src="/glimmora-logo.png"
             alt="Glimmora Educore"
@@ -17,7 +22,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
             priority
             style={{ height: "36px", width: "auto", display: "block" }}
           />
-        </div>
+        </Link>
 
         <div className="space-y-4">
           <h2 className="text-3xl font-semibold leading-tight">
