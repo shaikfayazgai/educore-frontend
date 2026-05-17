@@ -1,0 +1,13 @@
+﻿"use client";
+
+import type { ReactNode } from "react";
+import { PortalShell } from "@/superadmin/components/layout/portal-shell";
+import { PORTAL_NAVIGATION } from "@/superadmin/config/navigation";
+
+export default function StudentLayout({ children }: { children: ReactNode }) {
+  return (
+    <PortalShell portalName="Student Portal" sections={PORTAL_NAVIGATION.student}>
+      {children}
+    </PortalShell>
+  );
+}

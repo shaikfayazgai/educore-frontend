@@ -1,0 +1,13 @@
+﻿"use client";
+
+import type { ReactNode } from "react";
+import { PortalShell } from "@/placement/components/layout/portal-shell";
+import { PORTAL_NAVIGATION } from "@/placement/config/navigation";
+
+export default function PlacementLayout({ children }: { children: ReactNode }) {
+  return (
+    <PortalShell portalName="Placement Portal" sections={PORTAL_NAVIGATION.placement}>
+      {children}
+    </PortalShell>
+  );
+}

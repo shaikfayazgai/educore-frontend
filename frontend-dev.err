@@ -1,0 +1,109 @@
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Uncaught Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:916:37)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11800:61)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at Object.hmrRefresh (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:11799:40)
+    at <unknown> (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13967:64)
+    at startTransition (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_compiled_0z_0e2t._.js:1279:31)
+    at processMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13966:44)
+    at WebSocket.handleMessage (file://E:/GLIMMORA/educore/educore-frontend/.next/dev/static/chunks/06o._next_dist_client_0rm0zqp._.js:13335:52)
+[browser] Image with src "/glimmora-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

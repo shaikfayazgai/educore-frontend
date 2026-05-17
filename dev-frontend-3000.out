@@ -1,0 +1,12 @@
+
+> glimmora@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.32.106.236:3000
+- Environments: .env.local
+✓ Ready in 1242ms
+
+ GET / 307 in 671ms (next.js: 332ms, application-code: 339ms)
+ GET /login 200 in 453ms (next.js: 62ms, application-code: 391ms)

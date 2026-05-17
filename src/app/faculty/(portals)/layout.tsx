@@ -1,0 +1,65 @@
+﻿"use client";
+
+import { useEffect, type ReactNode } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { Loader2 } from "lucide-react";
+import { useAuthStore } from "@/faculty/lib/stores/auth-store";
+import { PORTALS, getPortalFromPath, type PortalRole } from "@/faculty/config/portals";
+
+export default function PortalsLayout({ children }: { children: ReactNode }) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const { isAuthenticated, isInitialized, user, initialize } = useAuthStore();
+
+  useEffect(() => {
+    initialize();
+  }, [initialize]);
+
+  useEffect(() => {
+    if (!isInitialized) return;
+
+    // Not authenticated — redirect to login
+    if (!isAuthenticated || !user) {
+      router.replace("/faculty/login");
+      return;
+    }
+
+    // Forced password change blocks portal access. Backend also returns
+    // 403 PASSWORD_CHANGE_REQUIRED for non-auth endpoints; this gets the
+    // user there faster.
+    if (user.mustChangePassword) {
+      router.replace("/faculty/change-password");
+      return;
+    }
+
+    // Check if user is accessing the correct portal
+    const currentPortal = getPortalFromPath(pathname);
+    if (currentPortal && currentPortal !== user.role) {
+      // Redirect to their own portal
+      const correctPortal = PORTALS[user.role];
+      router.replace(`${correctPortal.basePath}/dashboard`);
+    }
+  }, [isInitialized, isAuthenticated, user, pathname, router]);
+
+  // Loading state while initializing auth
+  if (!isInitialized) {
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <div className="flex flex-col items-center gap-3">
+          <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
+          <p className="text-sm text-muted-foreground">Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Not authenticated
+  if (!isAuthenticated || !user) {
+    return null;
+  }
+
+  // Set portal data attribute for accent colors
+  const portalRole = getPortalFromPath(pathname) || user.role;
+
+  return <div data-portal={portalRole}>{children}</div>;
+}

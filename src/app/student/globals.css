@@ -1,0 +1,586 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   GLIMMORA DESIGN SYSTEM — v1.1
+   Sapphire Violet · Emerald Green · Deep Coral · Amber Gold
+   ========================================================================== */
+
+:root {
+  /* ========================================================================
+     01 — PRIMARY · Sapphire Violet
+     AI intelligence, innovation, wisdom, trust
+     ======================================================================== */
+  --primary-50: #eeeaff;
+  --primary-100: #ddd5ff;
+  --primary-200: #bba8ff;
+  --primary-300: #9a7eff;
+  --primary-400: #7b5ee8;
+  --primary-500: #4a3aba;
+  --primary-600: #3d2fa0;
+  --primary-700: #302586;
+  --primary-800: #241b6c;
+  --primary-900: #181252;
+  --primary-950: #0d0a30;
+
+  /* ========================================================================
+     02 — SECONDARY · Emerald Green
+     Growth, learning, research excellence
+     ======================================================================== */
+  --secondary-50: #ecfdf3;
+  --secondary-100: #d1fae5;
+  --secondary-200: #a7f3d0;
+  --secondary-300: #6ee7b7;
+  --secondary-400: #34d399;
+  --secondary-500: #0d9668;
+  --secondary-600: #0a7b56;
+  --secondary-700: #086044;
+  --secondary-800: #064532;
+  --secondary-900: #042f23;
+  --secondary-950: #021a13;
+
+  /* ========================================================================
+     03 — TERTIARY · Deep Coral
+     Engagement, energy, human-centric warmth
+     ======================================================================== */
+  --tertiary-50: #fff5f2;
+  --tertiary-100: #ffe8e1;
+  --tertiary-200: #ffd0c3;
+  --tertiary-300: #ffb09a;
+  --tertiary-400: #ff8b6a;
+  --tertiary-500: #e05a35;
+  --tertiary-600: #c04628;
+  --tertiary-700: #9e351e;
+  --tertiary-800: #7d2a18;
+  --tertiary-900: #5f2013;
+  --tertiary-950: #35100a;
+
+  /* ========================================================================
+     04 — ACCENT · Amber Gold
+     Achievement, credentials, excellence
+     ======================================================================== */
+  --accent-50: #fffbeb;
+  --accent-100: #fef3c7;
+  --accent-200: #fde68a;
+  --accent-300: #fcd34d;
+  --accent-400: #fbbf24;
+  --accent-500: #d97706;
+  --accent-600: #b45309;
+  --accent-700: #92400e;
+  --accent-800: #78350f;
+  --accent-900: #5c2d0e;
+  --accent-950: #3d1d09;
+
+  /* ========================================================================
+     05 — NEUTRALS · Slate
+     Text, backgrounds, borders, cards
+     ======================================================================== */
+  --neutral-0: #ffffff;
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  --neutral-950: #020617;
+  --neutral-1000: #000000;
+
+  /* ========================================================================
+     06 — SEMANTIC · Success / Warning / Danger / Info
+     ======================================================================== */
+  --success-50: #f0fdf4;
+  --success-100: #dcfce7;
+  --success-200: #bbf7d0;
+  --success-300: #86efac;
+  --success-400: #4ade80;
+  --success-500: #22c55e;
+  --success-600: #16a34a;
+  --success-700: #15803d;
+  --success-800: #166534;
+  --success-900: #14532d;
+  --success-950: #052e16;
+
+  --warning-50: #fffbeb;
+  --warning-100: #fef3c7;
+  --warning-200: #fde68a;
+  --warning-300: #fcd34d;
+  --warning-400: #fbbf24;
+  --warning-500: #f59e0b;
+  --warning-600: #d97706;
+  --warning-700: #b45309;
+  --warning-800: #92400e;
+  --warning-900: #78350f;
+  --warning-950: #451a03;
+
+  --danger-50: #fef2f2;
+  --danger-100: #fee2e2;
+  --danger-200: #fecaca;
+  --danger-300: #fca5a5;
+  --danger-400: #f87171;
+  --danger-500: #ef4444;
+  --danger-600: #dc2626;
+  --danger-700: #b91c1c;
+  --danger-800: #991b1b;
+  --danger-900: #7f1d1d;
+  --danger-950: #450a0a;
+
+  --info-50: #eff6ff;
+  --info-100: #dbeafe;
+  --info-200: #bfdbfe;
+  --info-300: #93c5fd;
+  --info-400: #60a5fa;
+  --info-500: #3b82f6;
+  --info-600: #2563eb;
+  --info-700: #1d4ed8;
+  --info-800: #1e40af;
+  --info-900: #1e3a8a;
+  --info-950: #172554;
+
+  /* ========================================================================
+     07 — EXTENDED PALETTE
+     Analytics, data-viz, module identity, UI variety
+     ======================================================================== */
+  --teal-50: #f0fdfa;
+  --teal-100: #ccfbf1;
+  --teal-200: #99f6e4;
+  --teal-300: #5eead4;
+  --teal-400: #2dd4bf;
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+  --teal-700: #0f766e;
+  --teal-800: #115e59;
+  --teal-900: #134e4a;
+  --teal-950: #042f2e;
+
+  --indigo-50: #eef2ff;
+  --indigo-100: #e0e7ff;
+  --indigo-200: #c7d2fe;
+  --indigo-300: #a5b4fc;
+  --indigo-400: #818cf8;
+  --indigo-500: #6366f1;
+  --indigo-600: #4f46e5;
+  --indigo-700: #4338ca;
+  --indigo-800: #3730a3;
+  --indigo-900: #312e81;
+  --indigo-950: #1e1b4b;
+
+  --rose-50: #fff1f2;
+  --rose-100: #ffe4e6;
+  --rose-200: #fecdd3;
+  --rose-300: #fda4af;
+  --rose-400: #fb7185;
+  --rose-500: #f43f5e;
+  --rose-600: #e11d48;
+  --rose-700: #be123c;
+  --rose-800: #9f1239;
+  --rose-900: #881337;
+  --rose-950: #4c0519;
+
+  --orange-50: #fff7ed;
+  --orange-100: #ffedd5;
+  --orange-200: #fed7aa;
+  --orange-300: #fdba74;
+  --orange-400: #fb923c;
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+  --orange-700: #c2410c;
+  --orange-800: #9a3412;
+  --orange-900: #7c2d12;
+  --orange-950: #431407;
+
+  --sky-50: #f0f9ff;
+  --sky-100: #e0f2fe;
+  --sky-200: #bae6fd;
+  --sky-300: #7dd3fc;
+  --sky-400: #38bdf8;
+  --sky-500: #0ea5e9;
+  --sky-600: #0284c7;
+  --sky-700: #0369a1;
+  --sky-800: #075985;
+  --sky-900: #0c4a6e;
+  --sky-950: #082f49;
+
+  /* ========================================================================
+     08 — MODULE IDENTITY
+     Each Glimmora module has a dedicated color
+     ======================================================================== */
+  --module-student: var(--primary-500);       /* Sapphire Violet */
+  --module-faculty: var(--secondary-500);     /* Emerald Green */
+  --module-research: var(--indigo-500);       /* Indigo */
+  --module-placement: var(--rose-500);        /* Rose */
+  --module-ministry: var(--sky-500);          /* Sky Blue */
+  --module-admin: var(--neutral-500);         /* Slate */
+  --module-compliance: var(--primary-700);    /* Deep Violet */
+  --module-finance: var(--accent-500);        /* Amber Gold */
+  --module-ai: var(--primary-500);            /* Sapphire Violet */
+  --module-analytics: var(--teal-500);        /* Teal */
+  --module-digital-twin: var(--indigo-500);   /* Indigo */
+  --module-credentials: var(--accent-500);    /* Amber Gold */
+
+  /* ========================================================================
+     09 — GRADIENTS
+     ======================================================================== */
+  --gradient-primary: linear-gradient(135deg, #4a3aba 0%, #7b5ee8 100%);
+  --gradient-primary-dark: linear-gradient(135deg, #0d0a30 0%, #4a3aba 100%);
+  --gradient-secondary: linear-gradient(135deg, #0d9668 0%, #34d399 100%);
+  --gradient-tertiary: linear-gradient(135deg, #e05a35 0%, #ff8b6a 100%);
+  --gradient-accent: linear-gradient(135deg, #d97706 0%, #fbbf24 100%);
+
+  --gradient-ai: linear-gradient(135deg, #4a3aba 0%, #6366f1 50%, #14b8a6 100%);
+  --gradient-ai-glow: linear-gradient(135deg, #302586 0%, #4338ca 50%, #0d9488 100%);
+  --gradient-digital-twin: linear-gradient(135deg, #6366f1 0%, #4a3aba 50%, #e05a35 100%);
+  --gradient-neural: linear-gradient(135deg, #302586 0%, #4a3aba 50%, #0ea5e9 100%);
+
+  --gradient-hero: linear-gradient(135deg, #0d0a30 0%, #4a3aba 40%, #0d9668 100%);
+  --gradient-hero-glow: linear-gradient(135deg, #0d0a30 0%, #302586 50%, #086044 100%);
+  --gradient-sidebar: linear-gradient(180deg, #0d0a30 0%, #1e293b 100%);
+  --gradient-surface-dark: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+
+  --gradient-success: linear-gradient(135deg, #22c55e 0%, #4ade80 100%);
+  --gradient-warning: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  --gradient-danger: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
+  --gradient-info: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  --gradient-heatmap: linear-gradient(90deg, #22c55e 0%, #fbbf24 50%, #ef4444 100%);
+
+  /* ========================================================================
+     10 — DATA VISUALIZATION SEQUENCE
+     12 distinct chart colors
+     ======================================================================== */
+  --chart-1: #4a3aba;
+  --chart-2: #0d9668;
+  --chart-3: #d97706;
+  --chart-4: #e05a35;
+  --chart-5: #f43f5e;
+  --chart-6: #14b8a6;
+  --chart-7: #6366f1;
+  --chart-8: #f97316;
+  --chart-9: #0ea5e9;
+  --chart-10: #ef4444;
+  --chart-11: #22c55e;
+  --chart-12: #fbbf24;
+
+  /* ========================================================================
+     11 — SHADOWS / ELEVATION
+     Sapphire Violet branded glow + neutral elevation
+     ======================================================================== */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.1), 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.1), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -2px rgba(15, 23, 42, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 10px 10px -5px rgba(15, 23, 42, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+  --shadow-primary: 0 4px 14px rgba(74, 58, 186, 0.3);
+  --shadow-glow: 0 0 20px rgba(74, 58, 186, 0.15);
+
+  /* ========================================================================
+     12 — SEMANTIC ALIASES
+     Shorthand tokens used throughout the app
+     ======================================================================== */
+  --background: var(--neutral-0);
+  --foreground: var(--neutral-900);
+  --muted: var(--neutral-100);
+  --muted-foreground: var(--neutral-500);
+  --border: var(--neutral-200);
+  --ring: var(--primary-400);
+  --card: var(--neutral-0);
+  --card-foreground: var(--neutral-900);
+  --input: var(--neutral-200);
+  --input-foreground: var(--neutral-900);
+
+  --success: var(--success-600);
+  --success-foreground: var(--neutral-0);
+  --success-light: var(--success-100);
+  --warning: var(--warning-500);
+  --warning-foreground: var(--neutral-0);
+  --warning-light: var(--warning-100);
+  --danger: var(--danger-500);
+  --danger-foreground: var(--neutral-0);
+  --danger-light: var(--danger-100);
+  --info: var(--info-500);
+  --info-foreground: var(--neutral-0);
+  --info-light: var(--info-100);
+
+  /* Risk levels */
+  --risk-high: var(--danger-600);
+  --risk-medium: var(--warning-500);
+  --risk-low: var(--success-600);
+  --risk-none: var(--neutral-400);
+
+  /* AI confidence */
+  --confidence-high: var(--success-600);
+  --confidence-medium: var(--warning-500);
+  --confidence-low: var(--danger-500);
+
+  /* Default portal accent — Sapphire Violet (student) */
+  --portal-accent: var(--primary-500);
+  --portal-accent-foreground: var(--neutral-0);
+  --portal-accent-light: var(--primary-50);
+  --portal-accent-hover: var(--primary-600);
+
+  /* ========================================================================
+     13 — RADIUS
+     ======================================================================== */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* ========================================================================
+     14 — LAYOUT
+     ======================================================================== */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 68px;
+  --header-height: 64px;
+}
+
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+.dark {
+  --background: var(--neutral-900);
+  --foreground: var(--neutral-100);
+  --muted: var(--neutral-800);
+  --muted-foreground: var(--neutral-400);
+  --border: var(--neutral-700);
+  --ring: var(--primary-400);
+  --card: var(--neutral-800);
+  --card-foreground: var(--neutral-100);
+  --input: var(--neutral-700);
+  --input-foreground: var(--neutral-100);
+
+  --success-light: var(--success-950);
+  --warning-light: var(--warning-950);
+  --danger-light: var(--danger-950);
+  --info-light: var(--info-950);
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  --shadow-primary: 0 4px 14px rgba(122, 94, 232, 0.4);
+  --shadow-glow: 0 0 20px rgba(122, 94, 232, 0.25);
+}
+
+/* ==========================================================================
+   PORTAL ACCENT
+   All portals share the same primary (Sapphire Violet). The per-portal
+   --portal-accent tokens resolve to primary across every portal so brand
+   identity stays consistent. Module identity colors (--module-*) still
+   exist for iconography/tagging, but they are NOT the primary action color.
+   ========================================================================== */
+
+/* ==========================================================================
+   TAILWIND v4 THEME INTEGRATION
+   Exposes tokens as Tailwind utilities (e.g. bg-primary-500, text-secondary-600)
+   ========================================================================== */
+@theme inline {
+  /* Core palettes */
+  --color-primary-50: var(--primary-50);
+  --color-primary-100: var(--primary-100);
+  --color-primary-200: var(--primary-200);
+  --color-primary-300: var(--primary-300);
+  --color-primary-400: var(--primary-400);
+  --color-primary-500: var(--primary-500);
+  --color-primary-600: var(--primary-600);
+  --color-primary-700: var(--primary-700);
+  --color-primary-800: var(--primary-800);
+  --color-primary-900: var(--primary-900);
+  --color-primary-950: var(--primary-950);
+
+  --color-secondary-50: var(--secondary-50);
+  --color-secondary-100: var(--secondary-100);
+  --color-secondary-200: var(--secondary-200);
+  --color-secondary-300: var(--secondary-300);
+  --color-secondary-400: var(--secondary-400);
+  --color-secondary-500: var(--secondary-500);
+  --color-secondary-600: var(--secondary-600);
+  --color-secondary-700: var(--secondary-700);
+  --color-secondary-800: var(--secondary-800);
+  --color-secondary-900: var(--secondary-900);
+  --color-secondary-950: var(--secondary-950);
+
+  --color-tertiary-50: var(--tertiary-50);
+  --color-tertiary-100: var(--tertiary-100);
+  --color-tertiary-200: var(--tertiary-200);
+  --color-tertiary-300: var(--tertiary-300);
+  --color-tertiary-400: var(--tertiary-400);
+  --color-tertiary-500: var(--tertiary-500);
+  --color-tertiary-600: var(--tertiary-600);
+  --color-tertiary-700: var(--tertiary-700);
+  --color-tertiary-800: var(--tertiary-800);
+  --color-tertiary-900: var(--tertiary-900);
+  --color-tertiary-950: var(--tertiary-950);
+
+  --color-accent-50: var(--accent-50);
+  --color-accent-100: var(--accent-100);
+  --color-accent-200: var(--accent-200);
+  --color-accent-300: var(--accent-300);
+  --color-accent-400: var(--accent-400);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --color-accent-700: var(--accent-700);
+  --color-accent-800: var(--accent-800);
+  --color-accent-900: var(--accent-900);
+  --color-accent-950: var(--accent-950);
+
+  /* Semantic aliases */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-input: var(--input);
+  --color-input-foreground: var(--input-foreground);
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-light: var(--success-light);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-light: var(--warning-light);
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-danger-light: var(--danger-light);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-light: var(--info-light);
+
+  --color-risk-high: var(--risk-high);
+  --color-risk-medium: var(--risk-medium);
+  --color-risk-low: var(--risk-low);
+  --color-risk-none: var(--risk-none);
+
+  --color-confidence-high: var(--confidence-high);
+  --color-confidence-medium: var(--confidence-medium);
+  --color-confidence-low: var(--confidence-low);
+
+  --color-portal-accent: var(--portal-accent);
+  --color-portal-accent-foreground: var(--portal-accent-foreground);
+  --color-portal-accent-light: var(--portal-accent-light);
+  --color-portal-accent-hover: var(--portal-accent-hover);
+
+  /* Extended palette */
+  --color-teal-500: var(--teal-500);
+  --color-indigo-500: var(--indigo-500);
+  --color-rose-500: var(--rose-500);
+  --color-orange-500: var(--orange-500);
+  --color-sky-500: var(--sky-500);
+
+  /* Radius */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+
+  /* Fonts */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* ==========================================================================
+   BASE STYLES
+   ========================================================================== */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+/* Focus */
+*:focus-visible {
+  outline: 2px solid var(--portal-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Selection */
+::selection {
+  background: var(--portal-accent-light);
+  color: var(--foreground);
+}
+
+/* ==========================================================================
+   SUPER ADMIN PORTAL
+   Uses standard Glimmora Sapphire Violet as primary. Distinguished from
+   other portals through DM Sans typography only.
+   ========================================================================== */
+
+[data-portal="super-admin"] {
+  font-family: var(--font-sa, var(--font-sans));
+}
+
+[data-portal="super-admin"] *:focus-visible {
+  outline: none;
+}
+
+[data-portal="super-admin"] select,
+[data-portal="super-admin"] select option {
+  background-color: var(--card);
+  color: var(--foreground);
+}
+
+/* Super Admin — staggered entrance animation */
+@keyframes sa-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sa-stagger {
+  animation: sa-fade-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.sa-stagger-1 { animation-delay: 0ms; }
+.sa-stagger-2 { animation-delay: 60ms; }
+.sa-stagger-3 { animation-delay: 120ms; }
+.sa-stagger-4 { animation-delay: 180ms; }
+.sa-stagger-5 { animation-delay: 240ms; }
+.sa-stagger-6 { animation-delay: 300ms; }
+
+/* Super Admin — brand icon glow pulse */
+@keyframes sa-brand-glow {
+  0%, 100% { box-shadow: 0 0 12px rgba(201, 150, 47, 0.2); }
+  50% { box-shadow: 0 0 20px rgba(201, 150, 47, 0.35); }
+}
+
+/* Slide drawer animations */
+@keyframes sa-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes sa-slide-in-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}

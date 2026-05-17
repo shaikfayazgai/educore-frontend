@@ -1,0 +1,68 @@
+
+> educore-frontend@0.1.0 dev
+> next dev -p 3100
+
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3100
+- Network:       http://10.117.19.236:3100
+- Environments: .env.local
+✓ Ready in 1027ms
+
+○ Compiling /placement/settings ...
+ GET /placement/settings 200 in 6.0s (next.js: 5.5s, application-code: 553ms)
+ GET / 200 in 757ms (next.js: 588ms, application-code: 169ms)
+ GET / 200 in 73ms (next.js: 4ms, application-code: 69ms)
+ GET / 200 in 123ms (next.js: 8ms, application-code: 115ms)
+ GET / 200 in 106ms (next.js: 7ms, application-code: 99ms)
+ GET /student/login 200 in 1159ms (next.js: 1079ms, application-code: 80ms)
+ GET /faculty/login 200 in 751ms (next.js: 677ms, application-code: 74ms)
+ GET /faculty/dashboard 200 in 2.5s (next.js: 2.3s, application-code: 130ms)
+ GET /faculty/settings 200 in 605ms (next.js: 548ms, application-code: 57ms)
+ GET /faculty/courses 200 in 762ms (next.js: 684ms, application-code: 78ms)
+ GET /placement/settings 200 in 112ms (next.js: 8ms, application-code: 104ms)
+ GET /placement/students 200 in 832ms (next.js: 750ms, application-code: 82ms)
+ GET /placement/employers 200 in 851ms (next.js: 780ms, application-code: 71ms)
+ GET /placement/matching 200 in 646ms (next.js: 580ms, application-code: 66ms)
+ GET /placement/pipeline 200 in 718ms (next.js: 670ms, application-code: 48ms)
+ GET /placement/reports 200 in 1489ms (next.js: 1390ms, application-code: 100ms)
+ GET /placement/settings 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET /placement/students 200 in 56ms (next.js: 6ms, application-code: 50ms)
+ GET /admin/users 200 in 1808ms (next.js: 1396ms, application-code: 412ms)
+✓ Compiled in 400ms
+ GET /placement/students 200 in 642ms (next.js: 146ms, application-code: 495ms)
+ GET /faculty/courses 200 in 642ms (next.js: 338ms, application-code: 304ms)
+ GET /admin/users 200 in 643ms (next.js: 438ms, application-code: 205ms)
+ GET /faculty/courses 200 in 133ms (next.js: 49ms, application-code: 84ms)
+ GET /placement/students 200 in 136ms (next.js: 7ms, application-code: 129ms)
+ GET /admin/users 200 in 51ms (next.js: 6ms, application-code: 45ms)
+✓ Compiled in 448ms
+✓ Compiled in 241ms
+✓ Compiled in 312ms
+✓ Compiled in 296ms
+ GET /superadmin/login 200 in 1374ms (next.js: 825ms, application-code: 548ms)
+ GET /superadmin/login 200 in 92ms (next.js: 7ms, application-code: 85ms)
+ GET /faculty/courses 200 in 210ms (next.js: 5ms, application-code: 205ms)
+ GET /faculty/login 200 in 128ms (next.js: 23ms, application-code: 105ms)
+ GET /faculty/login 200 in 47ms (next.js: 5ms, application-code: 42ms)
+ GET /faculty/dashboard 200 in 76ms (next.js: 28ms, application-code: 48ms)
+ GET /placement/login 200 in 661ms (next.js: 559ms, application-code: 101ms)
+ GET /placement/login 200 in 70ms (next.js: 10ms, application-code: 61ms)
+ GET /superadmin/login 200 in 105ms (next.js: 7ms, application-code: 98ms)
+ GET /faculty/briefings 200 in 676ms (next.js: 620ms, application-code: 56ms)
+ GET /faculty/settings 200 in 94ms (next.js: 39ms, application-code: 54ms)
+ GET / 200 in 429ms (next.js: 227ms, application-code: 201ms)
+ GET / 200 in 99ms (next.js: 9ms, application-code: 90ms)
+ GET / 200 in 42ms (next.js: 8ms, application-code: 34ms)
+ GET / 200 in 259ms (next.js: 4ms, application-code: 255ms)
+ GET /student/login 200 in 85ms (next.js: 32ms, application-code: 53ms)
+ GET /student/login 200 in 179ms (next.js: 7ms, application-code: 173ms)
+ GET /superadmin/login 200 in 68ms (next.js: 4ms, application-code: 64ms)
+ GET /student/dashboard 200 in 1100ms (next.js: 1018ms, application-code: 81ms)
+ GET /superadmin/login 200 in 53ms (next.js: 5ms, application-code: 48ms)
+ GET /superadmin/dashboard 200 in 2.0s (next.js: 1876ms, application-code: 137ms)
+ GET /superadmin/monitoring 200 in 951ms (next.js: 890ms, application-code: 61ms)
+ GET /superadmin/complaints 200 in 773ms (next.js: 725ms, application-code: 48ms)
+ GET /superadmin/universities 200 in 1088ms (next.js: 1004ms, application-code: 84ms)
+ GET /student/academics/4d95adcc-ffb7-4014-b92f-f7023d76e5f6 200 in 2.9s (next.js: 2.6s, application-code: 291ms)
+ GET /student/login 200 in 80ms (next.js: 8ms, application-code: 72ms)
+[?25h

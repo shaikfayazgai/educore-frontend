@@ -1,0 +1,14 @@
+
+> glimmora@0.1.0 dev
+> next dev -p 3003
+
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3003
+- Network:       http://10.90.132.236:3003
+- Environments: .env.local
+✓ Ready in 1068ms
+⚠ Turbopack's filesystem cache has been deleted because we previously detected an internal error in Turbopack. Builds or page loads may be slower as a result.
+
+○ Compiling /_not-found/page ...
+✓ Finished writing to filesystem cache in 11.2s
+[?25h
