@@ -211,7 +211,6 @@ function LoginForm() {
               { email: "student@glimmora.dev", label: "Student" },
               { email: "faculty@glimmora.dev", label: "Faculty" },
               { email: "admin@glimmora.dev", label: "Admin" },
-              { email: "research@glimmora.dev", label: "Research" },
               { email: "superadmin@glimmora.dev", label: "Super Admin" },
             ].map((account) => (
               <button
